@@ -7,6 +7,7 @@ type offerSearchFragment = typeof import('./fragments/offerSearch.js');
 type footerFragment = typeof import('./fragments/footer.js');
 type aboutPage = typeof import('./pages/about.js');
 type responsibleGamingPage = typeof import('./pages/responsibleGaming.js');
+type termsConditionsPage = typeof import('./pages/termsConditions.js');
 declare namespace CodeceptJS {
   interface SupportObject {
     I: I,
@@ -18,6 +19,7 @@ declare namespace CodeceptJS {
     footerFragment: footerFragment,
     aboutPage: aboutPage,
     responsibleGamingPage: responsibleGamingPage,
+    termsConditionsPage : termsConditionsPage,
   }
   interface Methods extends Playwright { }
   interface I extends ReturnType<steps_file> { }
