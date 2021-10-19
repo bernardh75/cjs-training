@@ -1,0 +1,52 @@
+1. In my mind, tests are useless for situations where :
+- the code, the function to test is relatively simple
+- writing tests is more complex than writing code
+- passing or failing the test is difficult to define
+- if a non-reproducible bug
+- if it is already covered by another more general test 
+
+
+2. The tests are used to show the presence of defects, not their absence.
+Because their goal is to see if the program meets expectations correctly in a specific case, otherwise we have an error.
+Without error, however, this does not mean that there are no faults, but that our case works.
+
+
+3. By UI acceptand test we are testing what the users see (we check if the UI for the web application works fine without any defect) 
+and by API test puts much more emphasis on the testing of business logic, data responses and security, and performance. 
+Some API test could replace UI Test for example, because the UI calls APIs to change his state... 
+
+
+4. The International Software Testing Qualifications Board cerification are several benefits : 
+- A good knowledge of testing best practice
+- International recognition of acquired competencies and skills
+As limits we have : 
+- need to develop skills in testing
+
+
+5. The Agile method in my day-to-day experience has many advantages :
+- Better communication with the client through the PO, useful if the need evolves
+- The delivery is faster partial at each sprint we have added value
+- More flexibility in terms of schedules, adjustments ...
+- The entire agile team participates in agile ceremonies and are at the heart of decisions ...
+Agile method has also some inconvenients : 
+- lack of predictability
+- not enough docs
+
+
+6. Regression testing refers to a type of software testing that is used to verify any modification or update in a software without affecting the overall working functionality of the said software.
+
+
+7. As CI tools we have Jenkins and Travis CI.
+Jenkins is a open-source CI/CD tool that is in usage for a long time. The tool is written entirely in Java. Jenkins has a set of features that can be used to build, test, and integrate changes in a project.
+Like Jenkins, Travis CI is also one of the early players in the CI/CD tools market. Travis is written in Ruby and is developed and maintained by the Travis CI community.
+
+
+8. BDD stands for Behavior Driven Development and it's a extension of Test Driven Development concept but instead of testing our code we are testing our product, it's behaves.
+Cucumbe.js is a framework that runs automated acceptance tests written in a BDD style. It works by allowing you to define your tests in Gherkin form, and makes these gherkins executable by tying them to code.
+
+
+9. 
+Best to worst : 
+1. #loginButton
+2. //a[contains(@class,"header_login")]//input[@id="login_btn"]
+3. //*[@id=”header-banner-1"]/bcdk-mandatory-action-dialog/div/div[2]/button[2]
