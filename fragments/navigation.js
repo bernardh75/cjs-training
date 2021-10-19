@@ -1,4 +1,4 @@
-const { I, mainPage, aboutPage, responsibleGamingPage } = inject();
+const { I, mainPage, aboutPage, responsibleGamingPage, termsConditionsPage } = inject();
 
 module.exports = {
 
