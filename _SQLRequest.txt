@@ -1,6 +1,7 @@
-SELECT TOP 1 ID FROM TABLE_NAME 
+SELECT ID FROM TABLE_NAME 
 WHERE State = 9 
 AND hasMoney = 0 
 AND available = 1 
 AND country LIKE ‘Italy’ 
-ORDER BY RAND();
+ORDER BY RAND()
+LIMIT 1;
